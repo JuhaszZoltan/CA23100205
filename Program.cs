@@ -22,9 +22,10 @@ namespace CA23100205
             resp = Console.ReadLine();
             if (resp.ToLower().Contains("blue"))
             {
-                Console.ForegroundColor = ConsolColor.Blue;
-                Console.Writeline("This?")
+                Console.ForegroundColor = ConsoleColor.Blue;
+                Console.WriteLine("This?");
             }
+            Console.ReadKey(true);
         }
     }
 }
